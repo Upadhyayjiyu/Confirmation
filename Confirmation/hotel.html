@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1600585152906-7c3b5b0f3b09" alt="Hotel Room" class="hotel-img" />
+    <div class="confirmation-content">
+      <h2>Booking Confirmed!</h2>
+      <p class="success-msg">Thank you for your reservation, Jyoti!</p>
+      <div class="details">
+        <p><strong>Hotel:</strong> Ocean View Resort</p>
+        <p><strong>Location:</strong> Goa, India</p>
+        <p><strong>Check-in:</strong> July 25, 2025</p>
+        <p><strong>Check-out:</strong> July 28, 2025</p>
+        <p><strong>Guests:</strong> 2 Adults</p>
+        <p><strong>Confirmation ID:</strong> #OVR54321</p>
+      </div>
+      <div class="buttons">
+        <button onclick="downloadPDF()">📄 Download PDF</button>
+        <button class="secondary" onclick="modifyBooking()">✏️ Modify Booking</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
